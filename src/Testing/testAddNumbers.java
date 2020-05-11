@@ -9,7 +9,7 @@ class testAddNumbers {
 	@Test
 	void test() {
 		JUnitTest jUnit = new JUnitTest();
-		int result=jUnit.addNumbers(100, 200);
+		int result=jUnit.addNumbers(100,  200);
 		assertEquals(300, result);
 	}
 
